@@ -1,0 +1,172 @@
+*{
+        margin: 0px;
+        padding: 0px;
+}
+@font-face {
+        font-family: mono;
+        src: url("../Azeret_Mono/AzeretMono-VariableFont_wght.ttf");
+}
+/* header */
+header nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 150px;
+}
+.nav-tittle a{
+        font-family: mono;
+        font-size: 28px;
+        font-weight: 100;
+        line-height: 33px;
+        color: rgb(13, 19, 33);
+        text-decoration: none;
+}
+.primary-btn{
+        font-family: mono;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 23px;
+        box-sizing: border-box;
+        padding: 14px 20px 14px 20px;
+        color: rgb(13, 19, 33);
+        border: 1px solid rgb(13, 19, 33);
+        border-radius: 6px;
+        opacity: 0.8;
+        cursor: pointer;
+        background: transparent;
+}
+
+/* main-container */
+.main-container{
+        background-image: url(../assets/Hero-bg.png);
+        height: 652px;
+}
+.main-text{
+        max-width: 998px;
+        margin: 0px auto;
+        text-align: center;
+}
+.main-text img{
+        margin-top: 28px;
+        margin-bottom: 32px;
+}
+.main-text-tittle{
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 48px;
+        font-weight: 100;
+        line-height: 68px;
+        margin-bottom: 24px;
+}
+.main-text-description{
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 26px;
+        margin-bottom: 32px;
+        opacity: 0.7;
+}
+
+.primary-btn-main{
+        font-family: mono;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 23px;
+        box-sizing: border-box;
+        padding: 14px 20px 14px 20px;
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border-radius: 8px;
+        cursor: pointer;
+        margin-bottom: 44px;
+}
+
+/* short-section */
+.short-section{
+        max-width: 1140px;
+        margin: 0px auto;
+}
+.web-container{
+        padding: 80px 96px;
+        margin-top: 100px;
+}
+.web-text-tittle{
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 32px;
+        font-weight: 100;
+        line-height: 37px;
+        text-align: center;
+        margin-bottom: 24px;
+}
+.web-text-description{
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 26px;
+        text-align: center;
+        opacity: 0.7;
+        margin-bottom: 48px;
+}
+.web-skill{
+        display: flex;
+        padding: 48px;
+        justify-content: space-between;
+}
+.web-skill-text{
+        max-width: 478px;
+}
+.web-skill-text-tittle{
+        color: rgba(13, 19, 33, 0.7);
+        font-family: mono;
+        font-size: 24px;
+        font-weight: 100;
+        line-height: 36px;
+        text-align: left;
+        margin-bottom: 16px;
+}
+.web-skill-text-description{
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 26px;
+        text-align: left;
+        opacity: 0.7;
+        margin-bottom: 30px;
+}
+.web-skill-text-btn{
+        box-sizing: border-box;
+        border: 1px solid rgb(13, 19, 33);
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 23px;
+        text-align: center;
+        opacity: 0.7;
+        padding: 8px 18px;
+        cursor: pointer;
+}
+/* Inspiration section */
+
+.Inspiration-text-tittle{
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 32px;
+        font-weight: 100;
+        line-height: 37px;
+        text-align: center;
+        margin-bottom: 24px;
+}
+.Inspiration-text-description{
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 26px;
+        text-align: center;
+        opacity: 0.7;
+        margin-bottom: 48px;
+}
