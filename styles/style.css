@@ -6,6 +6,9 @@
         font-family: mono;
         src: url("../Azeret_Mono/AzeretMono-VariableFont_wght.ttf");
 }
+html,body,footer{
+        scroll-behavior: smooth;
+}
 /* header */
 header nav{
         display: flex;
@@ -170,6 +173,41 @@ header nav{
         opacity: 0.7;
         margin-bottom: 48px;
 }
+.frame{
+        max-width: 1070px;
+        border-radius: 16px;
+        text-align: center;
+}
+.frame iframe{
+        width: 1060px;
+        height: 500px;
+        border-radius: 16px;
+        padding: 20px;
+}
+
+/* Target *//* Target */
+.Target-text{
+        margin-top: 150px;
+}
+.Target-text-tittle{
+        font-family:mono;
+        font-size: 32px;
+        font-weight: 100;
+        line-height: 37px;
+        color: rgb(13, 19, 33);
+        text-align: center;
+        margin-bottom: 24px;
+}
+.Target-text-description{
+        color: #000000;
+        font-family: mono;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 26px;
+        text-align: center;
+        opacity: 0.7;
+}
+
 .target-tittle{
         font-family: mono;
         font-size: 24px;
@@ -177,6 +215,8 @@ header nav{
         line-height: 36px;
         text-align: left;
         color: rgba(13, 19, 33, 0.7);
+        margin-bottom: 8px;
+        margin-top: 24px;
 }
 .target-description{
         font-family: mono;
@@ -186,4 +226,128 @@ header nav{
         text-align: left;
         opacity: 0.7;
         color: rgb(13, 19, 33);
+        margin-bottom: 24px;
 }
+.target-language{
+        max-width: 1140px;
+        display: flex;
+        gap: 24px;
+        text-align: left;
+        margin-top: 48px;
+}
+.target-language-1{
+        padding: 40px;
+        border-radius: 16px;
+        background: rgba(255, 76, 30, 0.05);
+}
+.target-language-2{
+        padding: 40px;
+        border-radius: 16px;
+        background: rgba(0, 76, 232, 0.05);
+}
+.target-language-3{
+        padding: 40px;
+        border-radius: 16px;
+        background: rgba(255, 223, 0, 0.05);
+}
+a{
+        font-family: mono;
+        font-size: 16px;
+        font-weight: 100;
+        color: #000000;
+        text-decoration-line: underline;
+}
+/* Target *//* Target */
+
+/* My-next-target *//* My-next-target */
+.next-target-list{
+        display: flex;
+        text-align: left;
+        padding: 40px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.15);
+        border-radius: 16px;
+        background: rgb(255, 255, 255);
+        margin-bottom: 24px;
+        margin-top: 48px;
+}
+.next-target-list img{
+        width: 80px;
+        height: 80px;
+}
+.next-target-text{
+        margin-left: 20px;
+}
+.next-target-text h3{
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 24px;
+        font-weight: 100;
+        margin-bottom: 8px;
+}
+.next-target-text p{
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 16px;
+        font-weight: 100;
+        margin-bottom: 24px;
+}
+.next-target-text a{
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 16px;
+        font-weight: 100;
+        text-align: left;
+        text-decoration-line: underline;
+}
+
+/* support */ /* support */
+
+.support{
+        max-width: 1140px;
+        background-image: url(../assets/handshake.jpg);
+        border-radius: 16px;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        margin-top: 50px;
+}
+.support-text{
+        padding: 64px;
+}
+.support-text-tittle{
+        font-family: mono;
+        font-size: 32px;
+        font-weight: 100;
+        line-height: 37px;
+        margin-bottom: 18px;
+        color: rgb(255, 255, 255);
+}
+.support-text-description{
+        font-family: mono;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 26px;
+        color: rgb(255, 255, 255);
+        opacity: 0.7;
+        margin-bottom: 24px;
+}
+
+.input-field .text{
+        width: 450px;
+        padding: 10px;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+}
+.input-field .submit{
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 5px;
+        padding: 10px 8px;
+        border: none;
+        cursor: pointer;
+}
+/* support */ /* support */
