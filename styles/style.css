@@ -305,7 +305,7 @@ a{
 
 .support{
         max-width: 1140px;
-        background-image: url(../assets/handshake.jpg);
+        background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../assets/handshake.jpg');
         border-radius: 16px;
         background-position: center;
         background-size: cover;
