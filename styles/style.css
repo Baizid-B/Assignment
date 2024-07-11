@@ -351,3 +351,28 @@ a{
         cursor: pointer;
 }
 /* support */ /* support */
+
+/* footer */
+#footer-container{
+        border-radius: 16px;
+        background: rgba(13, 19, 33, 0.03);
+        padding: 15px 0px;
+        margin-top: 80px;
+}
+.footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1140px;
+        margin: 0 auto;
+}
+.footer-text{
+        color: rgb(13, 19, 33);
+        font-family: mono;
+        font-size: 18px;
+        font-weight: 400;
+}
+.footer-social img{
+        margin-left: 24px;
+}
+/* footer */
